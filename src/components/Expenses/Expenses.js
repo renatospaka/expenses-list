@@ -9,7 +9,12 @@ const Expenses = (props) => {
 
   const expenses = props.expenses
   const items = expenses.map((item) => {
-    return <ExpenseItem title={item.title} amount={item.amount} date={item.date} />
+    return <ExpenseItem 
+            key={item.key}
+            title={item.title} 
+            amount={item.amount} 
+            date={item.date} 
+          />
   });
   
   const filterYearHandler = selectedYear => {
