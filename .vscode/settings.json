@@ -13,7 +13,10 @@
     "titleBar.activeBackground": "#033565",
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#03356599",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "sash.hoverBorder": "#044f97",
+    "statusBarItem.remoteBackground": "#033565",
+    "statusBarItem.remoteForeground": "#e7e7e7"
   },
   "peacock.remoteColor": "#033565",
   "yaml.customTags": [
@@ -44,5 +47,43 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
+  ],
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#033565"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
   ]
 }
