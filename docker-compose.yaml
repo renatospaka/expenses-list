@@ -3,6 +3,7 @@ version: "3.5"
 services:
   app:
     build: .
+    entrypoint: .docker/entrypoint.sh
     container_name: expense_list_app
     volumes:
       - .:/home/node/app
