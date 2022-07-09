@@ -2,4 +2,7 @@
 node_modules/
 
 *.OLD
-*-lock.*
+*.NEW
+
+.eslintcache
+
